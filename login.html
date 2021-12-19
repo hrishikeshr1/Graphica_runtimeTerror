@@ -1,0 +1,58 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sign in</title>
+  <link rel="stylesheet" type="text/css" href="loginstyles.css">
+  <link rel="icon" href="img/icon.ico" type="icon">
+</head>
+
+<body>
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1><a href="index.html" rel="dofollow">Students Login</a></h1>
+        </div>
+        <div class="formbg-outer">
+          <div class="formbg">
+            <div class="formbg-inner padding-horizontal--48">
+              <form id="login-form">
+                <div class="field padding-bottom--24">
+                  <label for="Username" >Username</label>
+                  <input type="text" name="username" placeholder="Username" id="username">
+                </div>
+                <div class="field padding-bottom--24">
+                  <div class="grid--50-50">
+                    <label for="password">Password</label>
+                    <div class="reset-pass">
+                      <a href="#">Forgot your password ?</a>
+                    </div>
+                  </div>
+                  <input type="password" name="password" placeholder="Password" id="password">
+                </div>
+                <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
+                  <label for="checkbox">
+                    <input type="checkbox" name="checkbox"> Remember me
+                  </label>
+                </div>
+                <div class="field padding-bottom--24">
+                  <input type="submit" name="submit" value="Continue" id="continue-login">
+                </div>
+                <div class="google">
+                  <a class="ssolink" href="#" >Sign in using Google</a></a><img src="images/googleicon.png" alt="google logo" id="google_logo">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer-link padding-top--24">
+            <span>Don't have an account? <a href="">Sign up</a></span>
+            <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
+              <span><a href="#">runtime Terror</a></span>
+              <span><a href="https://www.aitpune.com/" target="_blank">AIT Pune</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
